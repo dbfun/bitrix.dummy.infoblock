@@ -14,6 +14,7 @@ class BADummyInfoblock {
     // Получение параметров вызова
     $this->arParams["IBLOCK_ID"] = intVal(intVal($this->arParams["IBLOCK_ID"]) > 0 ? $this->arParams["IBLOCK_ID"] : $_REQUEST["ID"]);
     $this->arParams["ELEMENT_ID"] = intVal(intVal($this->arParams["ELEMENT_ID"]) > 0 ? $this->arParams["ELEMENT_ID"] : $_REQUEST["ELEMENT_ID"]);
+    $this->arParams["SECTION_ID"] = intVal(intVal($this->arParams["SECTION_ID"]) > 0 ? $this->arParams["SECTION_ID"] : $_REQUEST["SECTION_ID"]);
   }
 
   // контолер
